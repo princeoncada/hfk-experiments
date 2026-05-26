@@ -89,14 +89,20 @@ Session close:  Write SESSION_LOG → update HFK_STATE.json → update HFK_HANDO
 - Stage and commit each file individually with a clear one-line message
 - `assets/` folder is excluded from git — Recraft SVGs stay local only
 - Commit message format: `[filename]: [what it is or what changed]`
+- **Never run git commands via Claude Code tools** — always output a single
+  copy-paste PowerShell code block for the user to run in their own terminal.
+  This avoids permission prompts. Include `git push` in the same block when applicable.
 
-Examples:
-```
+Example output format:
+```powershell
+cd "C:\Users\princ\Desktop\hfk-experiments"
+git add .gitignore
+git commit -m ".gitignore: exclude assets/, binary exports, OS files"
 git add CLAUDE.md
-git commit -m "CLAUDE.md: session rules and git convention"
-
-git add docs/HFK_BRAND.md
-git commit -m "docs/HFK_BRAND.md: brand reference with B&W line art style"
+git commit -m "CLAUDE.md: session rules, startup protocol, git convention"
+git add README.md
+git commit -m "README.md: project overview, folder structure, session types"
+git push -u origin master
 ```
 
 ---
@@ -108,3 +114,4 @@ git commit -m "docs/HFK_BRAND.md: brand reference with B&W line art style"
 | 1.0 | 2026-05-26 | Initial session rules |
 | 1.1 | 2026-05-26 | Added Pending Tasks to startup protocol and report format; updated file read priority |
 | 1.2 | 2026-05-26 | Added Git Convention section |
+| 1.3 | 2026-05-26 | Git Convention: never run git via tools — output single copy-paste block instead |
