@@ -77,6 +77,7 @@ There is no code, no build step, no validation pipeline.
 ```
 Startup:        CLAUDE.md → HFK_STATE.json → HFK_HANDOFF.md → HFK_EXPERIMENT_LOG.md
 Content work:   HFK_EXPERIMENT_LOG.md → docs/HFK_ANALYTICS.md → docs/HFK_BRAND.md
+Strategy work:  HFK_EXPERIMENT_LOG.md → docs/HFK_MILESTONES.md → docs/HFK_FUTURE.md
 Patch work:     Relevant doc → docs/HFK_CHANGELOG.md
 Session close:  Write SESSION_LOG → update HFK_STATE.json → update HFK_HANDOFF.md
 ```
@@ -115,3 +116,4 @@ git push -u origin master
 | 1.1 | 2026-05-26 | Added Pending Tasks to startup protocol and report format; updated file read priority |
 | 1.2 | 2026-05-26 | Added Git Convention section |
 | 1.3 | 2026-05-26 | Git Convention: never run git via tools — output single copy-paste block instead |
+| 1.4 | 2026-05-26 | Added Strategy work to File Read Priority (Milestones + Future) |
