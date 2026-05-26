@@ -24,6 +24,7 @@ One row per patch. Each patched doc also has its own local Changelog section.
 | 007 | 2026-05-26 | HFK_DASHBOARD.md | — → 1.0 | New doc: alerts, content runway, analytics tracker, milestone snapshot |
 | 007 | 2026-05-26 | CLAUDE.md | 1.4 → 1.5 | Dashboard added to startup protocol; ALERTS block added to report format |
 | 007 | 2026-05-26 | HFK_WORKFLOW.md | 1.2 → 1.3 | Session close step 4 added: update dashboard each session |
+| 008 | 2026-05-26 | HFK_OPENER.md | 1.0 → 1.1 | Rewritten: Claude Code auto-loads CLAUDE.md, opener is fallback-only |
 
 ---
 
