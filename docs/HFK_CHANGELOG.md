@@ -21,6 +21,9 @@ One row per patch. Each patched doc also has its own local Changelog section.
 | 006 | 2026-05-26 | HFK_FUTURE.md | — → 1.0 | New doc: ideation dump with Design/Content/Workflow/Distribution/Brand categories |
 | 006 | 2026-05-26 | CLAUDE.md | 1.3 → 1.4 | Added Strategy work to File Read Priority |
 | 006 | 2026-05-26 | HFK_WORKFLOW.md | 1.1 → 1.2 | Type C updated to read Milestones + Future docs |
+| 007 | 2026-05-26 | HFK_DASHBOARD.md | — → 1.0 | New doc: alerts, content runway, analytics tracker, milestone snapshot |
+| 007 | 2026-05-26 | CLAUDE.md | 1.4 → 1.5 | Dashboard added to startup protocol; ALERTS block added to report format |
+| 007 | 2026-05-26 | HFK_WORKFLOW.md | 1.2 → 1.3 | Session close step 4 added: update dashboard each session |
 
 ---
 
