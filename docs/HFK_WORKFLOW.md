@@ -27,6 +27,7 @@ QUERY    → Claude reads experiment log, finds next untested priority combinati
 PROPOSE  → Claude presents the combination + rationale
 CONFIRM  → User approves or redirects
 GENERATE → Claude produces: caption + Canva brief + Recraft asset prompts
+SAVE     → Claude writes full package to docs/CONTENT_PACKAGES/exp-NN-[CODE].md
 LOG      → Claude adds experiment to Pending Tasks as "content-ready"
 CLOSE    → Write session log, update HFK_STATE.json
 ```
