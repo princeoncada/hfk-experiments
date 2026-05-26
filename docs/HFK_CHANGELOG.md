@@ -25,6 +25,11 @@ One row per patch. Each patched doc also has its own local Changelog section.
 | 007 | 2026-05-26 | CLAUDE.md | 1.4 → 1.5 | Dashboard added to startup protocol; ALERTS block added to report format |
 | 007 | 2026-05-26 | HFK_WORKFLOW.md | 1.2 → 1.3 | Session close step 4 added: update dashboard each session |
 | 008 | 2026-05-26 | HFK_OPENER.md | 1.0 → 1.1 | Rewritten: Claude Code auto-loads CLAUDE.md, opener is fallback-only |
+| 009 | 2026-05-26 | docs/CONTENT_PACKAGES/ | — | New folder: content packages saved per experiment so they survive across sessions |
+| 009 | 2026-05-26 | docs/CONTENT_PACKAGES/exp-01-A2YQ.md | — | Exp 01 package saved retroactively |
+| 009 | 2026-05-26 | docs/CONTENT_PACKAGES/exp-02-C1YP.md | — | Exp 02 package saved retroactively |
+| 009 | 2026-05-26 | docs/CONTENT_PACKAGES/exp-03-B4XQ.md | — | Exp 03 package saved retroactively |
+| 009 | 2026-05-26 | HFK_WORKFLOW.md | 1.3 → 1.4 | Type A: SAVE step added — write package to CONTENT_PACKAGES/ before logging |
 
 ---
 
