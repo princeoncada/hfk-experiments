@@ -17,6 +17,10 @@ One row per patch. Each patched doc also has its own local Changelog section.
 | 004 | 2026-05-26 | .gitignore | — | Added assets/ exclusion |
 | 004 | 2026-05-26 | CLAUDE.md | 1.1 → 1.2 | Added Git Convention section (one commit per file, assets/ excluded) |
 | 005 | 2026-05-26 | CLAUDE.md | 1.2 → 1.3 | Git Convention updated: never run git via tools, always output single copy-paste block |
+| 006 | 2026-05-26 | HFK_MILESTONES.md | — → 1.0 | New doc: M1–M5 milestone gates with unlock conditions and progress tracker |
+| 006 | 2026-05-26 | HFK_FUTURE.md | — → 1.0 | New doc: ideation dump with Design/Content/Workflow/Distribution/Brand categories |
+| 006 | 2026-05-26 | CLAUDE.md | 1.3 → 1.4 | Added Strategy work to File Read Priority |
+| 006 | 2026-05-26 | HFK_WORKFLOW.md | 1.1 → 1.2 | Type C updated to read Milestones + Future docs |
 
 ---
 
