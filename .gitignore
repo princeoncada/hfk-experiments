@@ -2,7 +2,7 @@
 .claude/settings.local.json
 
 # Recraft SVG assets (stored locally, not tracked in git)
-assets/
+assets
 
 # Exported worksheet files (large binaries — store separately if needed)
 *.pdf
