@@ -47,10 +47,10 @@ CLOSE    → Write session log, update HFK_STATE.json and HFK_HANDOFF.md
 User wants to review overall direction.
 
 ```
-READ     → Claude reads full experiment log + handoff
-SUMMARIZE → Present: what's working, what's not, what's untested
+READ     → Claude reads experiment log + HFK_MILESTONES.md + HFK_FUTURE.md
+SUMMARIZE → Present: what's working, what's not, milestone progress, ideas ready to act on
 DECIDE   → User makes directional call
-UPDATE   → Claude updates priority queue accordingly
+UPDATE   → Claude updates priority queue + milestone tracker if warranted
 CLOSE    → Write session log
 ```
 
