@@ -1,0 +1,16 @@
+# Claude Code local settings (machine-specific, do not share)
+.claude/settings.local.json
+
+# Recraft SVG assets (stored locally, not tracked in git)
+assets/
+
+# Exported worksheet files (large binaries — store separately if needed)
+*.pdf
+*.jpg
+*.jpeg
+*.png
+
+# OS junk
+.DS_Store
+Thumbs.db
+desktop.ini
