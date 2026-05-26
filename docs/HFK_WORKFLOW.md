@@ -102,6 +102,7 @@ Before ending any session, Claude Code must:
 1. Write a session log to `docs/SESSION_LOG/YYYY-MM-DD-session-NN.md`
 2. Update `HFK_STATE.json` (experiments_run, last_updated, next_action)
 3. Update `docs/HFK_HANDOFF.md` Zone 1 if sprint or status changed
+4. Update `docs/HFK_DASHBOARD.md` — recalculate runway, refresh alerts, update analytics tracker
 
 ### Session Log Format
 
@@ -212,3 +213,5 @@ When any doc is patched:
 |---------|------|--------|
 | 1.0 | 2026-05-26 | Initial workflow document |
 | 1.1 | 2026-05-26 | Added Type D (Pending Tasks), Type E (Docs Patch); added Experiment Status Definitions table; added Patch Versioning Convention; updated Content Generation Output Format to reference B&W line art brand |
+| 1.2 | 2026-05-26 | Type C updated to read Milestones + Future docs |
+| 1.3 | 2026-05-26 | Session close updated: step 4 added — update HFK_DASHBOARD.md each session |
