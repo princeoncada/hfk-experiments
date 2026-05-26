@@ -11,7 +11,8 @@ Version: 1.1 | Last patched: 2026-05-26 | See docs/HFK_CHANGELOG.md
 3. Read `docs/HFK_EXPERIMENT_LOG.md` — report:
    - How many combinations are untested
    - Current Pending Tasks (status of all in-flight experiments)
-4. Report full state. Wait for user confirmation before doing anything else.
+4. Read `docs/HFK_DASHBOARD.md` — surface any 🔴 alerts and content runway status
+5. Report full state. Wait for user confirmation before doing anything else.
 
 Do NOT read analytics or session logs at startup unless the user asks.
 
@@ -20,6 +21,11 @@ Do NOT read analytics or session logs at startup unless the user asks.
 ```
 Sprint [N] — [week_label]
 Experiments run: [N] of 30
+
+ALERTS:
+  🔴 [critical alerts — content runway, overdue analytics, missed posts]
+  🟡 [warnings — low runway, analytics due soon]
+  🟢 [if nothing urgent]
 
 PENDING TASKS:
   Exp [N] ([code]) — [topic] — [status] — [action required]
@@ -117,3 +123,4 @@ git push -u origin master
 | 1.2 | 2026-05-26 | Added Git Convention section |
 | 1.3 | 2026-05-26 | Git Convention: never run git via tools — output single copy-paste block instead |
 | 1.4 | 2026-05-26 | Added Strategy work to File Read Priority (Milestones + Future) |
+| 1.5 | 2026-05-26 | Added HFK_DASHBOARD.md to startup protocol (step 4); added ALERTS block to startup report format |
