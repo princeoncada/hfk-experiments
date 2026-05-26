@@ -16,6 +16,7 @@ One row per patch. Each patched doc also has its own local Changelog section.
 | 003 | 2026-05-26 | HFK_CHANGELOG.md | — | Created this file |
 | 004 | 2026-05-26 | .gitignore | — | Added assets/ exclusion |
 | 004 | 2026-05-26 | CLAUDE.md | 1.1 → 1.2 | Added Git Convention section (one commit per file, assets/ excluded) |
+| 005 | 2026-05-26 | CLAUDE.md | 1.2 → 1.3 | Git Convention updated: never run git via tools, always output single copy-paste block |
 
 ---
 
